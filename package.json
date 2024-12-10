@@ -1,0 +1,11 @@
+{
+  "name": "Recipe-package",
+  "version": "1.0.0",
+  "description": "Recipe web",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "lightbox2": "^2.11.5"
+  }
+}

@@ -1,0 +1,17 @@
+header {
+    nav {
+        background-color: $secondary-color;
+
+        a.nav-link,
+        a.nav-link:hover,
+        a.nav-link:active {
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #393e4f;
+        }
+
+        .navbar-brand {
+            font-family: 'Bangers', cursive;
+        }
+    }
+}
