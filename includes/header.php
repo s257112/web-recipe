@@ -17,21 +17,26 @@
 
                         <li class="nav-item">
 
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.php?p=home">Home</a>
 
                         </li>
 
                         <li class="nav-item">
 
-                            <a class="nav-link" href="categories.html">Categories</a>
+                            <a class="nav-link" href="index.php?p=categories">Categories</a>
 
-                        </li>
+                       
+                            <?php if (isset($_SESSION['is_loggedin']) && $_SESSION['is_loggedin']) { ?>
+    <li class="nav-item">
+        <a class="nav-link" href="index.php?p=logout">Logout</a>
+    </li>
+<?php } else { ?>
+    <li class="nav-item">
+        <a class="nav-link" href="index.php?p=login">Login / Register</a>
+    </li>
+<?php } ?>
 
-                        <li class="nav-item">
 
-                            <a class="nav-link" href="login.html">Login / Register</a>
-
-                        </li>
 
                     </ul>
 

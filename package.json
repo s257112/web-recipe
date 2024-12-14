@@ -7,5 +7,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "lightbox2": "^2.11.5"
-  }
+  },
+"repository": "https://github.com/s257112/web-recipe.git",
+   "author": "614854822 <mohamed.haaji@bt.com>"
 }
